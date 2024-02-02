@@ -1,0 +1,27 @@
+.searchForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.searchForm input,
+.searchForm button {
+    font-size: 0.95rem;
+    width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.searchForm input {
+    border: 1px solid grey;
+    outline: none;
+}
+
+.searchForm button {
+    background-color: rgb(130, 9, 244);
+    color: white;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}

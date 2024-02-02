@@ -1,0 +1,13 @@
+.sliders {
+    width: 70%;
+    margin: 15px auto;
+}
+
+.sliderOutput {
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.inputSlider {
+  width: 100%;
+}

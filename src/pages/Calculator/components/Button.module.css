@@ -1,0 +1,23 @@
+.button {
+    background: #e9f0f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    cursor: pointer;
+    color: #242424;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px;
+}
+.button:hover {
+    border: 2px dotted #242424;;
+}
+.equals {
+    background: #4bd086;
+    grid-column: 3/5;
+}
+.opt {
+    background: #f79505;
+}

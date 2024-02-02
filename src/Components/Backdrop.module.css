@@ -1,0 +1,21 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.75);     
+}
+@media (min-width: 60px) {
+    .backdrop {
+      left: 60px; /* Width of the closed sidebar */
+    }
+  }
+  
+  /* Adjust the width to exclude the sidebar when it's open */
+  @media (min-width: 245px) {
+    .backdrop {
+      left: 245px; /* Width of the open sidebar */
+    }
+  }
